@@ -1,0 +1,13 @@
+{
+    "name": "xersec_api",
+    "version": "1.0.0",
+    "description": "Main API backend for xersec",
+    "author": "Alex <alex@xersec.com>",
+    "main": "startup.js",
+    "scripts": {
+      "start": "node startup.js"
+    },
+    "dependencies": {
+      "express": "^4.16.1"
+    }
+  }
