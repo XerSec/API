@@ -13,7 +13,8 @@ RUN npm install mongoose \
     body-parser \
     express-session \
     connect-mongo \
-    mongodb
+    mongodb \
+    crypto
 # If you are building your code for production
 # RUN npm install --only=production
 

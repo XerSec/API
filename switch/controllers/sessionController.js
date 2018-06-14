@@ -1,5 +1,6 @@
 'use strict';
 
+const crypto = require('crypto');
 var mongoose = require('mongoose'),
   Session = mongoose.model('Sessions');
 
