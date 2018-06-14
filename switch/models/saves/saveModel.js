@@ -2,6 +2,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 require('../titles/titleModel')
+require('../sessionModel')
 
 var SaveSchema = new Schema({
   For_Titles: [

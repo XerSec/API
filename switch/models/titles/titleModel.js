@@ -2,6 +2,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
+require('../sessionModel')
 
 var TitleSchema = new Schema({
   GameTitle: {

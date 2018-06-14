@@ -3,6 +3,7 @@ var express = require('express'),
   app = express(),
   port = 8080;
   mongoose = require('mongoose'),
+  Session = require('./switch/models/sessionModel'), //created model loading here
   Save = require('./switch/models/saves/saveModel'), //created model loading here
   Title = require('./switch/models/titles/titleModel'), //created model loading here
   bodyParser = require('body-parser');
