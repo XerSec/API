@@ -17,6 +17,7 @@ app.use(bodyParser.json());
 
 require('./switch/routes/saveRoutes')(app); //register the route
 require('./switch/routes/titleRoutes')(app); //register the route
+require('./switch/routes/sessionRoutes')(app); //register the route
 
 app.use(function(req, res) {
   res.status(404).send({url: req.originalUrl + ' not found'})

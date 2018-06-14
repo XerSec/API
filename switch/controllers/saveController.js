@@ -1,7 +1,8 @@
 'use strict';
 
 var mongoose = require('mongoose'),
-  Save = mongoose.model('Saves');
+  Save = mongoose.model('Saves'),
+  Session = mongoose.model('Sessions');
 
 exports.list_all_saves = function(req, res) {
     Save.find({}, function(err, save) {
