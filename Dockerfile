@@ -8,7 +8,12 @@ WORKDIR /usr/src/xersecapi
 # where available (npm@5+)
 COPY package*.json ./
 
-RUN npm install
+RUN npm install mongoose \
+    express \
+    body-parser \
+    express-session \
+    connect-mongo \
+    mongodb
 # If you are building your code for production
 # RUN npm install --only=production
 
