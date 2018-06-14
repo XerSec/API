@@ -21,4 +21,4 @@ var SaveSchema = new Schema({
   }
 });
 
-module.exports = mongoose.model('Save', SaveSchema);
+module.exports = mongoose.model('Saves', SaveSchema);
